@@ -30,15 +30,10 @@ function Todo() {
             setTodos(updateTodo)
             setEditId(0)
             setTodo('')
-        }
-
-
-       
+        }       
     }
 
-
     const inputRef = useRef('null')
-
 
     useEffect(() => {
         // console.log(inputRef.current)
@@ -62,11 +57,7 @@ function Todo() {
     });
     setTodos(complete)
 
-    //     setTodos(todos.map((datas)=>{
-    //         if(datas.id === id){
-                
-    //         }
-    // }))
+    
    }
 
 
