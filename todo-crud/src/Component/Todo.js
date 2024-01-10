@@ -56,10 +56,7 @@ function Todo() {
 
     });
     setTodos(complete)
-
-    
    }
-
 
 
     const onEdit = (id) =>{
@@ -68,7 +65,6 @@ function Todo() {
       setTodo(editTodo.list)
       setEditId(editTodo.id)
       console.log(editTodo)
-    
     }
 
 
@@ -83,11 +79,6 @@ function Todo() {
 
             <div className='list'>
                 <ul>
-                    {/* <li  className='form-control'>FIRST</li>
-                <li  className='form-control'>SECOND</li>
-                <li  className='form-control'>THIRD</li> */}
-
-
                     {
                         todos.map((item) => (
                             <li className='list-items'>
